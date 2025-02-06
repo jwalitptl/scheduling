@@ -1,11 +1,11 @@
 services:
 - type: pserv
-  repo: https://github.com/livekit-examples/agent-deployment
+  repo: https://github.com/jwalitptl/voice-agents.git
 
   # Change this to the path containing your Dockerfile
   rootDir: scheduling-agent
 
-  name: agent-example
+  name: scheduling-agent
   runtime: image
 
   # Free plan is not available for private services
@@ -14,7 +14,7 @@ services:
   # Environment variables are stored in a group
   # created in the Render dashboard.
   envVars:
-  - fromGroup: agent-example-env 
+  - fromGroup: livekit
   region: virginia
 
   # 300s is the standard allowed maximum. Talk to render.com support if you need this increased.
