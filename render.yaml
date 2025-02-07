@@ -1,11 +1,11 @@
 services:
 - type: pserv
-  repo: https://github.com/jwalitptl/voice-agents.git
+  repo: https://github.com/jwalitptl/scheduling.git
 
   # Change this to the path containing your Dockerfile
-  rootDir: scheduling-agent
+  rootDir: scheduling
 
-  name: scheduling-agent
+  name: scheduling
   runtime: image
 
   # Free plan is not available for private services
