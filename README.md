@@ -1,3 +1,5 @@
 # agent-deployment
 
-Hello lady
+Hello lady!
+
+This project demonstrates the deployment and scheduling capabilities of agents in distributed environments, focusing on scalability and reliability.
